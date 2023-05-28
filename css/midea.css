@@ -1,0 +1,605 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header code start */
+    header{
+        padding: 0;
+    }
+    .navlog .logo{
+        width: 150px;
+    }
+    .manu ul li a{
+        margin-left: 0px;
+    }
+    .manu ul li a i{
+        margin-left: 0px;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: -11px;
+        left: 60px;
+        margin-top: 0;
+    }
+    .ddm{
+        width: 220px;
+
+    }
+    .s-btn{
+
+        height: 30px;
+    }
+    .s-inp{
+
+        height: 30px;
+    }
+    /* header code end */
+    /* banner section code start */
+
+   .navlog .nlogo{
+    width: 200px;
+    }
+    .main-slid {
+        margin: 80px 5px 100px;
+    }
+    .main-slid h1 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 9px;
+    }
+    .main-slid p{
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .main-slid .banner-a {
+        padding: 0px 10px;
+    }
+    /* banner section code end */
+    /* welcam section code start  */
+    .welcam {
+        padding: 0px 20px 0px;
+    }
+    .welcam-text{
+        padding: 38px 0px 20px;
+    }
+    .welcam-text h1{
+        font-size: 25px;
+    }
+    .welcam-text::before{
+        content: "";
+        width: 2px;
+        height: 40px;
+        position: absolute;
+        background-color: #000000c9;
+        top: -0.5%;
+        left: 50%;             
+        z-index: 1;
+    }
+    .wel-p{
+        margin-bottom: 45px;
+    }
+    .singl-box{
+        margin-bottom: 60px;
+    }
+    .singl-box {
+        padding: 30px 15px 20px;
+        margin-bottom: 40px;
+    }
+    .singl-box .sbox-icon{
+        position: absolute;
+        top: -7.50%;
+        left: 43%;
+    }
+    .singl-box h2{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .singl-box h2::after{
+        width: 15%;
+        height: 2px;
+        left: 42%;
+    }
+    .singl-box .sbox-icon i{
+        font-size: 40px;
+    }
+    /* welcam section code end */
+    /* about section code start */
+    .about{
+        padding: 0px 20px 50px;
+       }
+    .about-text{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .about-text h1{
+        margin-bottom: 15px;
+        
+    }
+    .aboutp-1{
+        
+        margin-bottom: 20px;
+    }
+    .aboutp-2{
+        
+        margin-bottom: 30px;
+    }
+    .about-btn{
+        margin-top: 30px;
+    }
+    /* about section  code end  */
+    /* choos nipro section code start */
+    .worl-title{
+        padding: 25px 0px;
+        justify-content: center
+        
+    }
+    .worl-title i{
+        font-size: 35px;
+    }
+    .worl-title h3{
+        margin-left: 10px;
+        
+    }
+
+    /* choos nipro section code end */
+    /* how work section code start */
+    .work-sing-img{
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    .cl-link{
+        top: 85px;
+        left: 0;
+    }
+    /* how work section code end */
+    .by-now{
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .buy-main{
+        display: block;
+        
+    }
+    .buy-main h2{
+        margin-bottom: 15px;
+        font-size: 18px;    
+    }
+    .buy-n{
+        padding: 5px 10px;
+    }
+    .buy-n i{
+        margin-left: 5px;
+    }
+    /* contact section code start  */
+    .contact-fil{
+        padding: 30px 10px 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .cont-us {
+        top: -19px;
+        left: 25%;
+    }
+    .cont-us h2{
+        font-size: 22px;
+    }
+    .nam-imput input{
+        width: 100%;
+        padding: 5px 15px;
+    }
+    .email input{
+        margin-top: 20px;
+        padding: 5px 15px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #8f8f8f;
+    }
+    .m-text textarea{
+        margin-top: 10px;
+        padding: 19px 15px;
+        
+    }
+    .m-sub{
+        margin-top: 30px;
+        padding: 10px 20px;
+        
+    }
+    .m-sub i{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    /* contact section code end */
+    /* footer section code start */
+    .footer-cont ul li a{
+        margin: 10px 5px;
+    }
+    .footer-cont ul li a i{
+        padding: 5px;
+        font-size: 15px;
+        color: #F8F8F8;
+        border: 1px solid #fff;
+        transition: 0.92s;
+    
+    }
+    /* footer section code  end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header code start */
+    header{
+        padding: 15px 0 15px;
+    }
+    .manu ul li a{
+        margin-left: 0px;
+    }
+    .manu ul li a i{
+        margin-left: 0px;
+    }
+    .dropdown-menu[data-bs-popper] {
+        top: -11px;
+        left: 58px;
+        margin-top: 0;
+    }
+    .s-btn{
+        height: 30px;
+    }
+    .s-inp{
+        height: 30px;
+    }
+    
+    /* header code end */
+   /* banner section code start */
+
+   .navlog .nlogo{
+    width: 200px;
+    }
+    .main-slid {
+        margin: 105px 0 120px;
+    }
+    .main-slid h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 9px;
+    }
+    .main-slid .banner-a {
+        padding: 5px 13px;
+    }
+    /* banner section code end */
+    /* welcam section code start  */
+    .welcam {
+        padding: 20px 50px 20px;
+    }
+    .welcam-text{
+        padding: 50px 0px 15px;
+    }
+    .wel-p{
+        margin-bottom: 60px;
+    }
+    .singl-box{
+        margin-bottom: 60px;
+    }
+    .singl-box {
+        padding: 50px 48px 20px;
+        margin-bottom: 55px;
+    }
+    .singl-box .sbox-icon{
+        position: absolute;
+        top: -9.50%;
+        left: 43%;
+    }
+    .singl-box h2::after{
+        width: 15%;
+        height: 2px;
+        left: 42%;
+    }
+    /* welcam section code end */
+    /* about section code start */
+    .about{
+        padding: 0px 50px 50px;
+       }
+    .about-text{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .about-text h1{
+        margin-bottom: 15px;
+        
+    }
+    .aboutp-1{
+        
+        margin-bottom: 20px;
+    }
+    .aboutp-2{
+        
+        margin-bottom: 30px;
+    }
+    .about-btn{
+        margin-top: 30px;
+    }
+    /* about section  code end  */
+    /* work section code start */
+    .work-but ul li a{
+        padding: 5px 3px;
+        
+    }
+    /* work section code end */
+    /* choos nipro section code start */
+    .worl-title{
+        padding: 25px 0px;
+        justify-content: center
+        
+    }
+    .worl-title i{
+        font-size: 35px;
+    }
+    .worl-title h3{
+        margin-left: 10px;
+        
+    }
+
+    /* choos nipro section code end */
+    /* how work section code start */
+    .cl-link{
+        top: 85px;
+        left: 0;
+    }
+    /* how work section code end */
+    /* best prise section code start */
+    .pr-sing-box{
+        border: 1px solid #8e8e8e;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        padding: 35px 25px 20px;
+        position: relative;
+    }
+    .prise-title{
+        top: -18px;
+        left: 35px;
+    }
+    .prise-title h2{
+        font-size: 18px;
+    }
+    .pr-sing-box h2{
+        margin-bottom: 28px;
+        font-size: 25px;
+        
+    }
+    .pr-si{
+        margin-top: 15px;
+        padding: 8px 0;
+        
+    }
+    /* best prise section code end */
+    /* how work section code start */
+    .work-sing-img {
+        margin-top: 30px;
+        margin-bottom: 12px;
+        
+    }
+    /* how work section code end */
+    /* contact section code start  */
+    .contact-fil{
+        padding: 30px 40px 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .cont-us{
+        position: absolute;
+        top: -23px;
+        left: 33%;
+    }
+    .cont-us h2{
+        font-size: 28px;
+    }
+    .email input{
+        margin-top: 20px;
+        padding: 5px 30px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #8f8f8f;
+    }
+    .m-text textarea{
+        margin-top: 20px;
+        padding: 15px 27px;
+        
+    }
+    /* contact section code end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header code start */
+    header{
+        padding: 10px 0;
+    }
+    .manu ul li a{
+        margin-left: 0px;
+    }
+    .manu ul li a i{
+        margin-left: 0px;
+    }
+
+    .dropdown-menu[data-bs-popper] {
+        top: -11px;
+        left: 58px;
+        margin-top: 0;
+    }
+    .s-btn{
+        height: 35px;
+    }
+    .s-inp{
+        height: 35px;
+    }
+    /* header code end */
+    /* banner section code start */
+
+    .navlog .nlogo{
+        width: 200px;
+    }
+    .main-slid {
+        margin: 105px 0 120px;
+    }
+    .main-slid h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 9px;
+    }
+    .main-slid .banner-a {
+        padding: 5px 13px;
+    }
+    /* banner section code end */
+    /* welcam section code start  */
+    .welcam-text{
+        padding: 50px 0px 28px;
+    }
+    .wel-p{
+        margin-bottom: 60px;
+    }
+    .singl-box{
+        margin-bottom: 60px;
+    }
+    /* welcam section code end */
+    /* about section  code start  */
+    .about{
+        padding: 0px 70px 50px;
+       }
+    .about-text{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .about-text h1{
+        margin-bottom: 15px;
+        
+    }
+    .aboutp-1{
+        
+        margin-bottom: 20px;
+    }
+    .aboutp-2{
+        
+        margin-bottom: 30px;
+    }
+    .about-btn{
+        margin-top: 30px;
+    }
+    /* about section  code end  */
+    /* work section code start */
+    .work-sing-img {
+        margin-top: 0px;
+        margin-bottom: 56px;
+    }
+    /* work section code end */
+    
+    /* contact section code start  */
+    .contact-fil{
+        padding: 40px 60px 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .cont-us{
+        position: absolute;
+        top: -25px;
+        left: 36%;
+    }
+    .cont-us h2{
+        font-size: 28px;
+    }
+    .m-text textarea{
+        margin-top: 30px;
+        padding: 5px 30px;
+    }
+    /* contact section code end */
+    /* choos nipro section code start */
+    .worl-title{
+        padding: 25px 0px;
+        justify-content: center
+        
+    }
+    .worl-title i{
+        font-size: 35px;
+    }
+    /* choos nipro section code end */
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* banner section code start */
+    /* .banner{
+        height: 90vh;
+    }
+    .banner-taxt{
+        margin-top: 90px;
+    }
+    .banner-taxt h1{
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner-button{
+        margin-top: 30px;
+    }
+    .np-button{
+        margin-top: 110px;
+    } */
+    header{
+        padding: 10px 0;
+        
+    }
+    .navlog .nlogo{
+        width: 200px;
+    }
+    .main-slid {
+        margin: 105px 0 120px;
+    }
+    .main-slid h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 9px;
+    }
+    .main-slid .banner-a {
+        padding: 5px 13px;
+    }
+    /* banner section code end */
+    /* about section  code start  */
+    .about-text{
+        
+    }
+    .about-text h1{
+        margin-bottom: 15px;
+        
+    }
+    .aboutp-1{
+        
+        margin-bottom: 20px;
+    }
+    .aboutp-2{
+        
+        margin-bottom: 30px;
+    }
+    .about-btn{
+        margin-top: 30px;
+    }
+    /* about section  code end  */
+    /* how work section code start */
+    .cimg-title{
+        padding: 10px 4px;
+        background-color: #F8F8F8;
+    }
+    .cimg-title h2{
+        
+    }
+    /* how work section code end  */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .banner-taxt{
+        
+    }
+    .np-button{
+       
+    }
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
